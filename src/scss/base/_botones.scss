@@ -1,9 +1,0 @@
-.boton-cafeClaro{
-    @include boton($cafeClaro, inline-block);
-}
-.boton-cafeClaro-block {
-    @include boton($cafeClaro, block);
-}
-.boton-verde{
-    @include boton($verde, inline-block);
-}
