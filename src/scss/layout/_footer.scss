@@ -1,13 +1,17 @@
+@use "sass:math";
+
+
 .footer{
-    padding: $separacion / 2 ;
+    padding: math.div($separacion, 2);
     background-color: $grisOscuro;
     margin-bottom: 0;
 
     .contenedo-footer{
-        padding-top: $separacion / 2;
+        margin-top: math.div($separacion, 2);
+
     }
 
-    .copyringt{
+    .copyringht{
         color: $blanco;
         text-align: center;
     }
