@@ -9,6 +9,7 @@
 .anuncio {
     background-color: color.adjust($grisMedio, $lightness: 5%);
     border: 2px solid color.scale($grisOscuro, $lightness: -5%);
+    margin-bottom: 2rem;
 
 
     .contenido-anuncio{
