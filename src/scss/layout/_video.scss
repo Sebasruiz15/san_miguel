@@ -1,0 +1,40 @@
+   .barra1 {
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    width: 100vw;
+
+    video {
+      display: block;
+      width: auto;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+     
+ 
+    
+                 
+    }
+
+ .overlay {
+    
+      position: absolute;
+      inset: 0;
+      display: flex;
+      justify-content: flex-end;
+      
+      &-content {
+        max-width: 1200px;
+        width: 100%;
+        pointer-events: auto; // Habilita interacción con el contenido
+      }
+  }     
+      
+}
+
+   
+
+  

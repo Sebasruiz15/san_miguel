@@ -1,18 +1,6 @@
-
-
 .header {
-    //  background-color: $gris;
+    background-color: $gris;
     padding: 1rem 0 3rem 0;
-    
-.video {
-    
-    position: absolute;  // Fija el video en la pantalla
-    top: 0;
-    left: 0;
-    width: 100vw;  // Ocupa el ancho completo de la ventana
-    height: 75.5vh; // Ocupa el alto completo de la ventana
-    overflow: hidden;
-    z-index: -1;   // Envía el video al fondo para que no tape otros elementos
 
     .overlay {
         position: absolute;
@@ -22,20 +10,8 @@
         justify-content: center;
     }
 
-    video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; // Asegura que el video cubra todo el contenedor sin distorsión
-    }
-}
-    
-    
-    
-
     &.inicio {
-
         background-position: center center;
-
 
         @include tablet {
             min-height: 70rem;
@@ -47,21 +23,4 @@
             }
         }
     }
-    
 }
-
-.contenido-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-    h1 {
-        text-align: left;
-        color: $blanco;
-        font-weight: $bold;
-        line-height: 2;
-        max-width: 60rem;
-    }
-}
-
