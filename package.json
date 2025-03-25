@@ -28,13 +28,5 @@
   },
   "dependencies": {
     "mozjpeg": "^8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sebasruiz15/san_miguel.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Sebasruiz15/san_miguel/issues"
-  },
-  "homepage": "https://github.com/Sebasruiz15/san_miguel#readme"
+  }
 }
